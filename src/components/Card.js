@@ -10,10 +10,10 @@ const Card = (props) => {
         if(wasClicked) {
             props.endCurrentStage();
         } else {
-           props.incrementScore();
+            props.incrementScore();
         }
-           props.randomizeCards();
-    };
+            props.randomizeCards();
+    }
 
     useEffect(() => {
         if(props.reset) {
@@ -30,7 +30,6 @@ return (
         </span>
     </div>
 )
-
 }
 
 export default Card;
