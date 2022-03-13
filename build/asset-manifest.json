@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-memory-game/static/css/main.2c8e0ad2.css",
+    "main.js": "/react-memory-game/static/js/main.586954ef.js",
+    "static/media/BIRDPERSON.png": "/react-memory-game/static/media/BIRDPERSON.17be6270f97e5ad9ebfa.png",
+    "static/media/GOLDENFOLD.png": "/react-memory-game/static/media/GOLDENFOLD.4d1e8730d778f477e1ac.png",
+    "static/media/RICK.png": "/react-memory-game/static/media/RICK.b966e97d42bbb5974017.png",
+    "static/media/FART.png": "/react-memory-game/static/media/FART.874938a556c6a7f98f68.png",
+    "static/media/SQUANCHY.png": "/react-memory-game/static/media/SQUANCHY.737adf9a515070c5c5c0.png",
+    "static/media/EVILMORTY.png": "/react-memory-game/static/media/EVILMORTY.46074b0d892c475fc91b.png",
+    "static/media/TAMMY.png": "/react-memory-game/static/media/TAMMY.2fbb0842e8b34cb17e19.png",
+    "static/media/MORTY.png": "/react-memory-game/static/media/MORTY.e068c3730bcf651632c2.png",
+    "static/media/JERRY.png": "/react-memory-game/static/media/JERRY.25df6251e698013acbec.png",
+    "static/media/TERRY.png": "/react-memory-game/static/media/TERRY.45a52d3e4c22640c6d31.png",
+    "static/media/BETH.png": "/react-memory-game/static/media/BETH.3ba4c50e9268366f18ee.png",
+    "static/media/SUMMER.png": "/react-memory-game/static/media/SUMMER.e92feb9ef07fa22a9332.png",
+    "index.html": "/react-memory-game/index.html",
+    "main.2c8e0ad2.css.map": "/react-memory-game/static/css/main.2c8e0ad2.css.map",
+    "main.586954ef.js.map": "/react-memory-game/static/js/main.586954ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c8e0ad2.css",
+    "static/js/main.586954ef.js"
+  ]
+}
