@@ -18,18 +18,18 @@ import './CardSetup.css';
 const CardSetup = (props) => {
 
     const cards = [
-        { image: RICK,  name: 'Rick'},
-        { image: MORTY,  name: 'MORTY'},
-        { image: JERRY,  name: 'JERRY'},
-        { image: BETH,  name: 'BETH'},
-        { image: SUMMER,  name: 'SUMMER'},
-        { image: TERRY,  name: 'TERRY'},
-        { image: TAMMY,  name: 'TAMMY'},
-        { image: SQUANCHY,  name: 'SQUANCHY'},
-        { image: GOLDENFOLD,  name: 'GOLDENFOLD'},
-        { image: FART,  name: 'FART'},
-        { image: EVILMORTY,  name: 'EVILMORTY'},
-        { image: BIRDPERSON,  name: 'BIRDPERSON'},
+        { image: RICK, name: 'Rick' },
+        { image: MORTY, name: 'MORTY' },
+        { image: JERRY, name: 'JERRY' },
+        { image: BETH, name: 'BETH' },
+        { image: SUMMER, name: 'SUMMER' },
+        { image: TERRY, name: 'TERRY' },
+        { image: TAMMY, name: 'TAMMY' },
+        { image: SQUANCHY, name: 'SQUANCHY' },
+        { image: GOLDENFOLD, name: 'GOLDENFOLD' },
+        { image: FART, name: 'F.A.R.T' },
+        { image: EVILMORTY, name: 'EVILMORTY' },
+        { image: BIRDPERSON, name: 'BIRDPERSON' },
     ]
 
     const [positions, setPositions] = useState(
@@ -38,7 +38,7 @@ const CardSetup = (props) => {
 
     const shuffleArray = (array) => {
         let shuffledArray = array.slice(0);
-        for(let i = 0; i < shuffledArray.length; i++) {
+        for (let i = 0; i < shuffledArray.length; i++) {
             const j = Math.floor(Math.random() * shuffledArray.length);
             [shuffledArray[i], shuffledArray[j]] = [
                 shuffledArray[j],

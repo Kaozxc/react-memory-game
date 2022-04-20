@@ -16,9 +16,11 @@
 
 .card img {
   margin: 5px;
-  max-width: 265px;
+  max-width: 205px;
   max-height: 265px;
   border-radius: 15px;
+  min-height: 265px;
+  min-width: 205px;
 }
 
 .card span {
